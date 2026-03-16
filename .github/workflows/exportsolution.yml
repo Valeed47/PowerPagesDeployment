@@ -1,1 +1,57 @@
-jobs
+name: Export Solution from Power Platform
+
+on:
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Power Platform Tools
+        uses: microsoft/powerplatform-actions/actions-install@v1
+
+      - name: Export Unmanaged Solution
+        uses: microsoft/powerplatform-actions/export-solution@v1
+        with:
+          environment-url: 'https://orgd10acd81.crm.dynamics.com'
+          app-id: ${{ secrets.PP_CLIENT_ID }}
+          client-secret: ${{ secrets.PP_CLIENT_SECRET }}
+          tenant-id: ${{ secrets.PP_TENANT_ID }}
+          solution-name: 'MyTestSolution'
+          solution-output-file: ./exported/solution_unmanaged.zip
+          managed: false
+          overwrite: true                    # prevents failure on re-run
+
+      - name: Export Managed Solution
+        uses: microsoft/powerplatform-actions/export-solution@v1
+        with:
+          environment-url: 'https://orgd10acd81.crm.dynamics.com'
+          app-id: ${{ secrets.PP_CLIENT_ID }}
+          client-secret: ${{ secrets.PP_CLIENT_SECRET }}
+          tenant-id: ${{ secrets.PP_TENANT_ID }}
+          solution-name: 'MyTestSolution'
+          solution-output-file: ./exported/solution_managed.zip
+          managed: true
+          overwrite: true                    # prevents failure on re-run
+
+      - name: Unpack Unmanaged Solution into Files
+        uses: microsoft/powerplatform-actions/unpack-solution@v1
+        with:
+          solution-file: ./exported/solution_unmanaged.zip
+          solution-folder: ./solutions/MyTestSolution
+          solution-type: Both               # better for Power Pages
+          overwrite-files: true
+
+      - name: Commit Solution to GitHub
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add ./solutions/
+          git add ./exported/solution_managed.zip
+          git add ./exported/solution_unmanaged.zip
+          git commit -m "Exported solution: MyTestSolution - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
