@@ -17,11 +17,11 @@ jobs:
       - name: Export Unmanaged Solution
         uses: microsoft/powerplatform-actions/export-solution@v1
         with:
-          environment-url: 'https://orgd10acd81.crm.dynamics.com'
+          environment-url: 'https://orgca9968a9.crm.dynamics.com'
           app-id: ${{ secrets.PP_CLIENT_ID }}
           client-secret: ${{ secrets.PP_CLIENT_SECRET }}
           tenant-id: ${{ secrets.PP_TENANT_ID }}
-          solution-name: 'MyTestSolution'
+          solution-name: 'PowerAppsDemo'
           solution-output-file: ./exported/solution_unmanaged.zip
           managed: false
           overwrite: true                    # prevents failure on re-run
@@ -29,11 +29,11 @@ jobs:
       - name: Export Managed Solution
         uses: microsoft/powerplatform-actions/export-solution@v1
         with:
-          environment-url: 'https://orgd10acd81.crm.dynamics.com'
+          environment-url: 'https://orgca9968a9.crm.dynamics.com'
           app-id: ${{ secrets.PP_CLIENT_ID }}
           client-secret: ${{ secrets.PP_CLIENT_SECRET }}
           tenant-id: ${{ secrets.PP_TENANT_ID }}
-          solution-name: 'MyTestSolution'
+          solution-name: 'PowerAppsDemo'
           solution-output-file: ./exported/solution_managed.zip
           managed: true
           overwrite: true                    # prevents failure on re-run
@@ -42,7 +42,7 @@ jobs:
         uses: microsoft/powerplatform-actions/unpack-solution@v1
         with:
           solution-file: ./exported/solution_unmanaged.zip
-          solution-folder: ./solutions/MyTestSolution
+          solution-folder: ./solutions/PowerAppsDemo
           solution-type: Both               # better for Power Pages
           overwrite-files: true
 
