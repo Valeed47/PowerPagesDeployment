@@ -1,7 +1,7 @@
 name: Deploy Solution to Test Environment
 
 on:
-  workflow_dispatch:                    # manual trigger
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -41,23 +41,9 @@ jobs:
           client-secret: ${{ secrets.PP_CLIENT_SECRET }}
           tenant-id: ${{ secrets.PP_TENANT_ID }}
 
-      - name: Restart Power Pages Portal
-        shell: pwsh
-        run: |
-          pac auth create `
-            --url "${{ secrets.PP_TARGET_ENV_URL }}" `
-            --applicationId "${{ secrets.PP_CLIENT_ID }}" `
-            --clientSecret "${{ secrets.PP_CLIENT_SECRET }}" `
-            --tenant "${{ secrets.PP_TENANT_ID }}"
-
-          pac admin restart `
-            --url "${{ secrets.PP_TARGET_ENV_URL }}"
-
       - name: Deployment Done
         shell: pwsh
         run: |
-          Write-Host "=========================================="
-          Write-Host "Deployment completed successfully"
-          Write-Host "Target: ${{ secrets.PP_TARGET_ENV_URL }}"
-          Write-Host "Time: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-          Write-Host "=========================================="
+          Write-Host "Import and publish completed successfully"
+          Write-Host "Target env: ${{ secrets.PP_TARGET_ENV_URL }}"
+          Write-Host "Completed at: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
