@@ -1,0 +1,24 @@
+<powerpagecomponent powerpagecomponentid="bab6c49a-cf1e-f111-8341-000d3a591227">
+  <content>{
+   "scope": 756150000,
+   "entitylogicalname": "contact",
+   "entityname": "Contact Table Permission",
+   "appendto": false,
+   "append": true,
+   "delete": false,
+   "create": true,
+   "write": false,
+   "read": true,
+   "adx_entitypermission_webrole": [
+      "6bd8c36b-d01e-f111-8341-000d3a591227"
+   ]
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Contact Table Permission</name>
+  <powerpagecomponenttype>18</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

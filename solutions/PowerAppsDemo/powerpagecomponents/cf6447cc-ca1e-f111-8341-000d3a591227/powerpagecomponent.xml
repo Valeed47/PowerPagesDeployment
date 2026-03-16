@@ -1,0 +1,29 @@
+<powerpagecomponent powerpagecomponentid="cf6447cc-ca1e-f111-8341-000d3a591227">
+  <content>{
+  "filecontent": null,
+  "savechangeswarningonclose": false,
+  "progressindicatorignorelaststep": false,
+  "progressindicatorprependstepnum": false,
+  "progressindicatorposition": 756150000,
+  "progressindicatortype": 756150000,
+  "progressindicatorenabled": false,
+  "multiplerecordsperuserpermitted": true,
+  "startnewsessiononload": false,
+  "authenticationrequired": true,
+  "editexistingrecordpermitted": true,
+  "startstep": "68958bec-ca1e-f111-8341-000d3a591227",
+  "webFormSteps": [
+    "68958bec-ca1e-f111-8341-000d3a591227",
+    "26ce0a02-cb1e-f111-8341-000d3a591227",
+    "23ba5311-cb1e-f111-8341-000d3a591227"
+  ]
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Leave Request Wizard</name>
+  <powerpagecomponenttype>19</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,11 @@
+<powerpagesites>
+  <powerpagesite powerpagesiteid="4f023f1a-413e-46e9-8e0d-11684bf9c62f">
+    <content>{"defaultlanguage":"c80e0306-c777-41b1-aeef-72bbce507bec","footerwebtemplateid":"d829bcbf-9e16-43da-8636-fa2995481521","headerwebtemplateid":"950054a9-b0a7-45d0-82ae-ac309e299330","website_language":1033,"defaultbotconsumerid":"cd6447cc-ca1e-f111-8341-000d3a591227"}</content>
+    <datamodelversion>2.0</datamodelversion>
+    <iscustomizable>1</iscustomizable>
+    <name>Leave Portal - LeavePortal-DEV</name>
+    <primarydomainname>LeavePortal-DEV.powerappsportals.com</primarydomainname>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </powerpagesite>
+</powerpagesites>

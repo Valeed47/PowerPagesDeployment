@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7be61c50-cb1e-f111-8341-000d3a591227}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{33613828-2d10-4d52-86ee-e0d19c6465e1}" IsUserDefined="1" labelid="{9d3a4615-e0db-4373-b9a6-2af1bc63159b}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36fc9042-9509-4277-90d3-20ec77b26c85}" labelid="{19a61cca-54f4-4bc7-b14c-63ab048c0a25}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{595dab46-f1db-4c45-9339-909fb00d8760}" visible="false" labelid="{6ebccece-3d03-488a-b586-8ed165832fe6}">
+                        <labels>
+                          <label description="LeaveID" languagecode="1033" />
+                        </labels>
+                        <control id="pp_newcolumn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pp_newcolumn" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ae2c614-3294-4342-94e5-953c8c7b8ba0}" visible="false" labelid="{87bc19fd-9c5a-462c-8552-eab920ea8f90}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c09894dd-e455-46a3-970a-5365013ef0e7}" locklevel="0" colspan="1" rowspan="1" labelid="{a40f88de-e4cd-434e-97e8-3f056672e4ff}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="pp_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="pp_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1b41ca5-cccb-47a8-8893-c63c627a2724}" locklevel="0" colspan="1" rowspan="1" labelid="{ef49dbb6-2535-41e3-8219-ff5bbb7f9f94}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="pp_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="pp_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebbe9989-358b-43ca-be90-7044f7275159}" locklevel="0" colspan="1" rowspan="1" labelid="{7c214887-1729-41af-8bd7-28593e1892be}">
+                        <labels>
+                          <label description="Leave Type" languagecode="1033" />
+                        </labels>
+                        <control id="pp_leavetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="pp_leavetype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f2139e98-f8bc-4e66-adbd-9a2ce26b4986}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9fd98cd1-7d22-4ab9-bac7-544037cba448}" showlabel="false" labelid="{d5455270-656e-4f2b-b671-4952a7913a6e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2d2c67cc-3d83-40d5-acc7-c711bb75a483}" showlabel="false" labelid="{d8e1f7c7-77d4-4f0e-8e45-9fe93ca1d003}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1595b0db-551c-4f40-91d0-a6a78b9cf437}" showlabel="false" labelid="{1154dc89-6e78-4761-8203-d387a7f5f325}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{af0c4e32-0b17-46c7-9464-86af91fe5660}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8b0f5506-a23d-4950-a44a-e7fdc6944c2e}" showlabel="false" labelid="{639da97e-41b6-4ebc-98a9-85d55b452f97}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d06eae8a-a1fe-4fd9-9060-8da708a7ec05}" showlabel="false" labelid="{c08344d5-df6c-4309-8f32-a23273b68f47}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9514abbf-3b2d-459e-bc55-3031b4ffb7a1}" showlabel="false" labelid="{2ed81295-77bc-4ea8-81fa-32bcce2442de}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Leave Details" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

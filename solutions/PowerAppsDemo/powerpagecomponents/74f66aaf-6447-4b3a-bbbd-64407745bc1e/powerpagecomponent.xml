@@ -1,0 +1,12 @@
+<powerpagecomponent powerpagecomponentid="74f66aaf-6447-4b3a-bbbd-64407745bc1e">
+  <content>{"enablerating":false,"enabletracking":false,"excludefromsearch":false,"hiddenfromsitemap":true,"isroot":true,"pagetemplateid":"e14ce693-93a8-45b7-ac97-a6517f2b37a5","parentpageid":"979360e7-ff4b-4e2a-8fda-91594db1c819","partialurl":"search","publishingstateid":"3bf9a56a-b6f1-47c0-806e-6330c0945715","sharedpageconfiguration":false}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>Search</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

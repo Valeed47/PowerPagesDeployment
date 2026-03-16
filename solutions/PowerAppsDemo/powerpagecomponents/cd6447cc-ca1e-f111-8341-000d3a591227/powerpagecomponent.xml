@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="cd6447cc-ca1e-f111-8341-000d3a591227">
+  <content>{"botschemaname":"craa5_34569177-d649-4ae1-8cd1-1a7ec0a361f6","configjson":"{\"skillConfigViewName\":\"Leave Portal bot Answers\"}"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Bot Consumer</name>
+  <powerpagecomponenttype>27</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

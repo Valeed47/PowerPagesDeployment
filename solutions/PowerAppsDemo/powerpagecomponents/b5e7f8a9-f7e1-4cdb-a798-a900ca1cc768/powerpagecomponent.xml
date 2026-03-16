@@ -1,0 +1,15 @@
+<powerpagecomponent powerpagecomponentid="b5e7f8a9-f7e1-4cdb-a798-a900ca1cc768">
+  <content>{
+  "filecontent": null,
+  "description": "Enables or disables Azure AD as an external identity provider. By default, it is set to true.",
+  "value": "false"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authentication/Registration/AzureADLoginEnabled</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

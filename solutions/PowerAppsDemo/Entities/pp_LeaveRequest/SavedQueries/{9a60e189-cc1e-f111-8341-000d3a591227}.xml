@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9a60e189-cc1e-f111-8341-000d3a591227}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pp_newcolumn" select="1" icon="1" preview="1">
+        <row name="result" id="pp_leaverequestid">
+          <cell name="pp_newcolumn" width="200" />
+          <cell name="pp_employee" width="100" />
+          <cell name="pp_startdate" width="100" />
+          <cell name="pp_enddate" width="100" />
+          <cell name="pp_leavetype" width="106" />
+          <cell name="pp_leavestatus" width="112" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="pp_leaverequest">
+          <attribute name="pp_newcolumn" />
+          <attribute name="pp_leaverequestid" />
+          <attribute name="pp_employee" />
+          <attribute name="pp_startdate" />
+          <attribute name="pp_enddate" />
+          <attribute name="pp_leavestatus" />
+          <attribute name="pp_leavetype" />
+          <filter type="and">
+            <condition attribute="pp_leavestatus" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Active Leaves" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

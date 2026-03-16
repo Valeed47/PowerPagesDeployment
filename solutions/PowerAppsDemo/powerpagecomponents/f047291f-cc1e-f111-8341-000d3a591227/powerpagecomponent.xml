@@ -1,0 +1,25 @@
+<powerpagecomponent powerpagecomponentid="f047291f-cc1e-f111-8341-000d3a591227">
+  <content>{
+  "partialurl": "My-Leaves",
+  "feedbackpolicy": 756150000,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": false,
+  "enablerating": false,
+  "isroot": true,
+  "sharedpageconfiguration": true,
+  "publishingstateid": "3bf9a56a-b6f1-47c0-806e-6330c0945715",
+  "pagetemplateid": "74d8561d-3104-4fe5-b7ff-c982fb726b87",
+  "parentpageid": "979360e7-ff4b-4e2a-8fda-91594db1c819",
+  "isofflinecached": false,
+  "entitylist": "7c6ee54f-cc1e-f111-8341-000d3a591227"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>My Leaves</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>My Leaves</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,32 @@
+/* Target the Create button specifically */
+a.create-action.btn.btn-primary {
+    background-color: #28a745 !important; /* green */
+    color: #ffffff !important;            /* white text */
+    border-color: #28a745 !important;     /* green border */
+}
+
+/* Hover state */
+a.create-action.btn.btn-primary:hover {
+    background-color: #218838 !important; /* darker green */
+    border-color: #1e7e34 !important;
+}
+
+.page-link {
+    background-color: #28a745 !important;  /* Green background */
+    color: #ffffff !important;             /* White text */
+    border-color: #28a745 !important;     /* Green border */
+}
+
+/* Hover state */
+.page-link:hover {
+    background-color: #218838 !important; /* Darker green on hover */
+    border-color: #1e7e34 !important;
+    color: #ffffff !important;
+}
+
+/* Active page */
+.page-item.active .page-link {
+    background-color: #28a745 !important;  /* Green for active page */
+    border-color: #28a745 !important;
+    color: #ffffff !important;
+}

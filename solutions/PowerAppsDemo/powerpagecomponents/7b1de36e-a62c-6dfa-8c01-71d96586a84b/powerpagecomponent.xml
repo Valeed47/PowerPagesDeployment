@@ -1,0 +1,28 @@
+<powerpagecomponent powerpagecomponentid="7b1de36e-a62c-6dfa-8c01-71d96586a84b">
+  <content>{
+  "displayorder": 2,
+  "pagetemplateid": "74d8561d-3104-4fe5-b7ff-c982fb726b87",
+  "parentpageid": "979360e7-ff4b-4e2a-8fda-91594db1c819",
+  "partialurl": "Submit-Leave",
+  "isroot": true,
+  "title": "Submit Leave",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "publishingstateid": "3bf9a56a-b6f1-47c0-806e-6330c0945715",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false,
+  "feedbackpolicy": 756150000,
+  "entityform": "03181d7a-f6d3-4cf8-b58f-d36eaffac190"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Submit Leave</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>Submit LeaveSubmit Leave</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

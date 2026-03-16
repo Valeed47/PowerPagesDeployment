@@ -1,0 +1,37 @@
+<powerpagecomponent powerpagecomponentid="772735dc-9699-e72d-8f97-56981b0be6ea">
+  <content>{
+  "filecontent": null,
+  "displayorder": 2,
+  "pagetemplateid": "74d8561d-3104-4fe5-b7ff-c982fb726b87",
+  "parentpageid": "979360e7-ff4b-4e2a-8fda-91594db1c819",
+  "partialurl": "Submit-Leave",
+  "isroot": false,
+  "rootwebpageid": "7b1de36e-a62c-6dfa-8c01-71d96586a84b",
+  "title": "Submit Leave",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;&lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; padding: 16px; margin: 60px 0px;\"&gt;{% entityform name: 'Information' %}&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "3bf9a56a-b6f1-47c0-806e-6330c0945715",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false,
+  "feedbackpolicy": 756150000,
+  "entityform": "03181d7a-f6d3-4cf8-b58f-d36eaffac190"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Submit Leave</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>4f023f1a-413e-46e9-8e0d-11684bf9c62f</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>c80e0306-c777-41b1-aeef-72bbce507bec</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Submit Leave&lt;div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="display: flex; flex-wrap: wrap;"&gt;&lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; padding: 16px; margin: 60px 0px;"&gt;{% entityform name: 'Information' %}&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+Submit Leave</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

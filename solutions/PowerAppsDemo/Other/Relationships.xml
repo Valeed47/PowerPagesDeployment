@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_pp_department" />
+  <EntityRelationship Name="business_unit_pp_leaverequest" />
+  <EntityRelationship Name="lk_pp_department_createdby" />
+  <EntityRelationship Name="lk_pp_department_modifiedby" />
+  <EntityRelationship Name="lk_pp_leaverequest_createdby" />
+  <EntityRelationship Name="lk_pp_leaverequest_modifiedby" />
+  <EntityRelationship Name="owner_pp_department" />
+  <EntityRelationship Name="owner_pp_leaverequest" />
+  <EntityRelationship Name="pp_department_Manager_systemuser" />
+  <EntityRelationship Name="pp_leaverequest_Employee_contact" />
+  <EntityRelationship Name="team_pp_department" />
+  <EntityRelationship Name="team_pp_leaverequest" />
+  <EntityRelationship Name="user_pp_department" />
+  <EntityRelationship Name="user_pp_leaverequest" />
+</EntityRelationships>
