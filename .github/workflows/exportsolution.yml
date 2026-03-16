@@ -24,7 +24,7 @@ jobs:
           solution-name: 'PowerAppsDemo'
           solution-output-file: ./exported/solution_unmanaged.zip
           managed: false
-          overwrite: true                    # prevents failure on re-run
+          overwrite: true
 
       - name: Export Managed Solution
         uses: microsoft/powerplatform-actions/export-solution@v1
@@ -36,22 +36,24 @@ jobs:
           solution-name: 'PowerAppsDemo'
           solution-output-file: ./exported/solution_managed.zip
           managed: true
-          overwrite: true                    # prevents failure on re-run
+          overwrite: true
 
       - name: Unpack Unmanaged Solution into Files
         uses: microsoft/powerplatform-actions/unpack-solution@v1
         with:
           solution-file: ./exported/solution_unmanaged.zip
           solution-folder: ./solutions/PowerAppsDemo
-          solution-type: Both               # better for Power Pages
+          solution-type: Unmanaged          # ← fixed from Both
           overwrite-files: true
 
       - name: Commit Solution to GitHub
+        shell: pwsh                         # ← explicit PowerShell since windows-latest
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add ./solutions/
           git add ./exported/solution_managed.zip
           git add ./exported/solution_unmanaged.zip
-          git commit -m "Exported solution: MyTestSolution - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git commit -m "Exported solution: PowerAppsDemo - $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" 
+          if ($LASTEXITCODE -ne 0) { Write-Host "No changes to commit" }
           git push
